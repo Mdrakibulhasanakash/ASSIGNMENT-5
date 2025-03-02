@@ -35,9 +35,7 @@ for (const completeButton of buttons) {
     }
     title();
     
-    // const titlle= card.query
-
-    // date and time
+    
 
     let today = new Date();
     let hour = today.getHours();
@@ -54,7 +52,7 @@ for (const completeButton of buttons) {
     let time = `${hour}:${minute}:${second} ${amPm}  `;
     let dayText = `${month} ${date} ${year}`;
 
-    // console.log(time)
+    
     const fixContainer = document.getElementById("fix-release");
 
     const p = document.createElement("p");
